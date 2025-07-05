@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music palyer</title>
+    <link rel="stylesheet" href="musicplayer.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="card">
+    <div class="music-player">
+       <div class="player-header">
+        <button class="icon-btn"><i class="fa-solid fa-bars"></i></button>
+        <span class="player-title">POP GIRLY</span>
+        <button class="icon-btn"><i class="fas fa-search"></i></button>
+       </div>
+       <!-- section -->
+        <div class="album-art-section">
+            <div class="album-art-bg"></div>
+            <div class="album-overlay">
+                <span class="now-playing">Now Playing</span>
+                <img class="album-art" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=200&q=80" alt="album-art"/>
+                <div class="song-info">
+                    <span class="song-title">Lover</span>
+                    <span class="song-artist">Taylor Swift</span>
+                </div>
+                 <button class="icon-btn volume"><i class="fas fa-volume-up"></i></button>
+  
+            </div>
+        </div>
+        <!-- 🎚️ Player Controls Section -->
+<div class="player-controls-section">
+
+  <!-- Progress bar -->
+  <div class="progress-bar-container">
+    <input type="range" min="0" max="100" value="20" class="progress-bar" disabled>
+  </div>
+
+  <!-- Time Info -->
+  <div class="time-info">
+    <span>0:00</span>
+    <span>3:45</span>
+  </div>
+
+  <!-- Playback Controls -->
+  <div class="controls">
+    <button class="icon-btn"><i class="fas fa-backward"></i></button>
+    <button class="icon-btn-play"><i class="fas fa-play"></i></button>
+    <button class="icon-btn"><i class="fas fa-forward"></i></button>
+  </div>
+  <!-- 🔄 Extra Controls -->
+  <div class="extra-controls">
+  <span class="icon-btn"><i class="fas fa-redo-alt"></i></span>
+  <span class="icon-btn"><i class="fas fa-random"></i></span>
+  <span class="icon-btn"><i class="fas fa-volume-mute"></i></span>
+  </div>
+
+  </div>
+</div>
+</div>
+</body>
+</html>
